@@ -1,5 +1,5 @@
 function sketchProc(processing) {
-  processing.size(3500, 2500);
+  processing.size(4000, 2500);
   processing.background(75);
   for (var i = 0; i < processing.width; i++) {
     var b = Math.floor(Math.random()*50)+75,
